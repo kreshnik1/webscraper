@@ -20,8 +20,8 @@ module.exports = {
               console.log('Mongoose disconnected on app termination');
               process.exit(0);
           });
-      });	
+      });
       // Connect to the database.
-      mongoose.connect(dbConfig.connectionString,{useNewUrlParser: true,useCreateIndex:true});    
+      mongoose.connect(dbConfig.connectionString,{useNewUrlParser: true,useCreateIndex:true});
     }
 };
